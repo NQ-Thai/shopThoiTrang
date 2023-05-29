@@ -24,7 +24,7 @@
                     <a class="nav-link active" href="{{ route('home.index') }}">Trang chủ</a>
                     <a class="nav-link active" href="{{ route('product.index') }}">Sản phẩm</a>
                     <a class="nav-link active" href="{{ route('cart.index') }}">Giỏ hàng</a>
-                    <a class="nav-link active" href="{{ route('home.about') }}">Thông tin</a>
+                    <a class="nav-link active" href="{{ route('home.about') }}">Liên hệ</a>
                     <a class="nav-link active" href="{{ route('admin.home.index') }}">Admin</a>
                     <div class="vr bg-white mx-2 d-none d-lg-block"></div>
                     @guest
@@ -47,8 +47,11 @@
             <h2>@yield('subtitle', 'Shop Thời Trang')</h2>
         </div>
     </header>
+
     <!-- header -->
-    <div class="container my-4">
+
+    
+    <div class="">
         @yield('content')
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">

@@ -22,7 +22,7 @@ class CartController extends Controller
         }
         $viewData = [];
         $viewData["title"] = "Giỏ hàng - Shop Thời Trang";
-        $viewData["subtitle"] = "Giỏ Hàng ";
+        $viewData["subtitle"] = "Giỏ Hàng";
         $viewData["total"] = $total;
         $viewData["products"] = $productsInCart;
         return view('cart.index')->with("viewData", $viewData);

@@ -15,7 +15,7 @@ class HomeController extends Controller
     public function about(){
         $viewData = [];
         $viewData["title"] = "Thông tin về chung tôi - Shop Thời Trang";
-        $viewData["subtitle"] = "Thông tin về chúng tôi";
+        $viewData["subtitle"] = "Liên hệ";
         $viewData["description"] = "This is an about page ...";
         $viewData["author"] = "Developed by: Nguyen Quang Thai";
         return view('home.about')->with("viewData", $viewData);

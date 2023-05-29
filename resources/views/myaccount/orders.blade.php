@@ -37,10 +37,12 @@
                     </tbody>
                 </table>
             </div>
-        </div>
+        </div> 
     @empty
         <div class="alert alert-danger" role="alert">
             Có vẻ như bạn chưa mua gì ở cửa hàng của chúng tôi :/ =(.
         </div>
     @endforelse
 @endsection
+
+
